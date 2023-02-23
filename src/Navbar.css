@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  height: 50px;
+  padding: 0 20px;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 800;
+  border-radius: 20px;
+}
+
+.navbar__list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar__item {
+  margin-left: 20px;
+}
+
+.navbar__item:first-child {
+  margin-left: 0;
+}
+
+.navbar__item a {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.navbar__item a span {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+}
+
+.navbar__item a:hover span {
+  display: block;
+}
+
+.navbar__item--login a {
+  color: #fff;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.navbar__item--login:hover {
+  background-color: #3e8e41;
+}
+
+.navbar__item--signup a {
+  color: #fff;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.navbar__item--signup:hover {
+  background-color: #0c4b85;
+}
+
+.navbar__item--icon a span {
+  margin-left: 10px;
+}
+
+.navbar__item--icon a svg {
+  width: 20px;
+  height: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar__item--login {
+        background-color: #4CAF50;
+        padding: 0 .50em;
+        border-radius: 5px;
+        margin-left: 55%;
+        position: fixed;
+    }
+
+    .navbar__item--signup {
+        background-color: #2196F3;
+        padding: 0 .50em;
+        border-radius: 5px;
+        margin-left: 70%;
+        position: fixed;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .navbar__item--login {
+        background-color: #4CAF50;
+        padding: 0 .50em;
+        border-radius: 5px;
+        margin-left: 75%;
+        position: fixed;
+    }
+
+    .navbar__item--signup {
+        background-color: #2196F3;
+        padding: 0 .50em;
+        border-radius: 5px;
+        margin-left: 85%;
+        position: fixed;
+    }
+}

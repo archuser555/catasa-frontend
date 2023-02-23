@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+body {
+  background: #696eff; 
+  background: -webkit-linear-gradient(to left, #696eff, #f8acff); 
+  background: linear-gradient(to left, #696eff, #f8acff);
+}
