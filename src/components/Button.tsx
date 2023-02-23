@@ -11,7 +11,7 @@ function Buttons(props: btnthingy){
         <br />
             <div className="container">
                 <button className="button"> { props.text } </button>
-                <button className="button"> {props.text2 } </button>
+                <button className="button2"> { props.text2 } </button>
             </div>
         </>
     );
