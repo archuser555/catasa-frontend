@@ -9,12 +9,12 @@ h1 {
 	font-weight: bold;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	text-align: center;
+	margin-bottom: 3%;
 }
 
 .subtitle {
   text-align: center;
   color: orangered;
   margin: auto;
-  margin-top: -7%;
   font-family:'Courier New', Courier, monospace;
 }
