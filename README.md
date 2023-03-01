@@ -1,3 +1,3 @@
-# **Capybara-Chat**
+# **Catasa**
 
-CapybaraChat is a real-time chat app that lets you chat with your friends about the world's largest rodent, the capybara. It uses React, Node.js, and MySQL, and the Long Polling technique to keep the chat flowing. I mean, why talk about anything else when you can talk about capybaras? Join the capybara craze today!
+An Anonymous, Open source chat app, a mix between the modern Discord UI and the old Pidgin Ecosystem, focus on simplicity and anonymousity, you can say it's a modern Omegle with a better UI and with more freedom, no data stored, nothing is send to any database, just you talking to strangers and freinds, in a free, kinda-modern anonymous chat app!
